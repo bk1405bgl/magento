@@ -1,0 +1,458 @@
+[2024-09-06T12:52:03.068364+00:00] main.ERROR: Parameter validation failed
+#0 /var/www/magento/vendor/symfony/console/Command/Command.php(292): Magento\Setup\Console\Command\InstallCommand->initialize()
+#1 /var/www/magento/vendor/symfony/console/Application.php(1078): Symfony\Component\Console\Command\Command->run()
+#2 /var/www/magento/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#3 /var/www/magento/vendor/magento/framework/Console/Cli.php(118): Symfony\Component\Console\Application->doRun()
+#4 /var/www/magento/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun()
+#5 /var/www/magento/bin/magento(23): Symfony\Component\Console\Application->run()
+#6 {main} [] []
+[2024-09-06T12:53:27.486483+00:00] main.INFO: Source table payment_services_order_status_data_production_submitted_hash does not exist. Skipping data migration... [] []
+[2024-09-06T12:53:35.187046+00:00] main.ERROR: Could not validate a connection to the OpenSearch. No alive nodes found in your cluster
+#0 /var/www/magento/setup/src/Magento/Setup/Model/SearchConfig.php(69): Magento\Setup\Model\SearchConfig->validateSearchEngine()
+#1 /var/www/magento/setup/src/Magento/Setup/Model/Installer.php(1206): Magento\Setup\Model\SearchConfig->saveConfiguration()
+#2 [internal function]: Magento\Setup\Model\Installer->installSearchConfiguration()
+#3 /var/www/magento/setup/src/Magento/Setup/Model/Installer.php(407): call_user_func_array()
+#4 /var/www/magento/setup/src/Magento/Setup/Console/Command/InstallCommand.php(237): Magento\Setup\Model\Installer->install()
+#5 /var/www/magento/vendor/symfony/console/Command/Command.php(326): Magento\Setup\Console\Command\InstallCommand->execute()
+#6 /var/www/magento/vendor/symfony/console/Application.php(1078): Symfony\Component\Console\Command\Command->run()
+#7 /var/www/magento/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#8 /var/www/magento/vendor/magento/framework/Console/Cli.php(118): Symfony\Component\Console\Application->doRun()
+#9 /var/www/magento/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun()
+#10 /var/www/magento/bin/magento(23): Symfony\Component\Console\Application->run()
+#11 {main} [] []
+[2024-09-06T13:00:44.036732+00:00] main.ERROR: The "--opensearch-user" option does not exist.
+#0 /var/www/magento/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\Component\Console\Input\ArgvInput->addLongOption()
+#1 /var/www/magento/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\Component\Console\Input\ArgvInput->parseLongOption()
+#2 /var/www/magento/vendor/symfony/console/Input/ArgvInput.php(74): Symfony\Component\Console\Input\ArgvInput->parseToken()
+#3 /var/www/magento/vendor/symfony/console/Input/Input.php(56): Symfony\Component\Console\Input\ArgvInput->parse()
+#4 /var/www/magento/vendor/symfony/console/Command/Command.php(285): Symfony\Component\Console\Input\Input->bind()
+#5 /var/www/magento/vendor/symfony/console/Application.php(1078): Symfony\Component\Console\Command\Command->run()
+#6 /var/www/magento/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#7 /var/www/magento/vendor/magento/framework/Console/Cli.php(118): Symfony\Component\Console\Application->doRun()
+#8 /var/www/magento/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun()
+#9 /var/www/magento/bin/magento(23): Symfony\Component\Console\Application->run()
+#10 {main} [] []
+[2024-09-06T13:03:02.542842+00:00] main.ERROR: Could not validate a connection to the OpenSearch. The search failed because of a search engine misconfiguration.
+#0 /var/www/magento/setup/src/Magento/Setup/Model/SearchConfig.php(69): Magento\Setup\Model\SearchConfig->validateSearchEngine()
+#1 /var/www/magento/setup/src/Magento/Setup/Model/Installer.php(1206): Magento\Setup\Model\SearchConfig->saveConfiguration()
+#2 [internal function]: Magento\Setup\Model\Installer->installSearchConfiguration()
+#3 /var/www/magento/setup/src/Magento/Setup/Model/Installer.php(407): call_user_func_array()
+#4 /var/www/magento/setup/src/Magento/Setup/Console/Command/InstallCommand.php(237): Magento\Setup\Model\Installer->install()
+#5 /var/www/magento/vendor/symfony/console/Command/Command.php(326): Magento\Setup\Console\Command\InstallCommand->execute()
+#6 /var/www/magento/vendor/symfony/console/Application.php(1078): Symfony\Component\Console\Command\Command->run()
+#7 /var/www/magento/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#8 /var/www/magento/vendor/magento/framework/Console/Cli.php(118): Symfony\Component\Console\Application->doRun()
+#9 /var/www/magento/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun()
+#10 /var/www/magento/bin/magento(23): Symfony\Component\Console\Application->run()
+#11 {main} [] []
+[2024-09-06T13:05:28.831718+00:00] main.ERROR: Could not validate a connection to the OpenSearch. The search failed because of a search engine misconfiguration.
+#0 /var/www/magento/setup/src/Magento/Setup/Model/SearchConfig.php(69): Magento\Setup\Model\SearchConfig->validateSearchEngine()
+#1 /var/www/magento/setup/src/Magento/Setup/Model/Installer.php(1206): Magento\Setup\Model\SearchConfig->saveConfiguration()
+#2 [internal function]: Magento\Setup\Model\Installer->installSearchConfiguration()
+#3 /var/www/magento/setup/src/Magento/Setup/Model/Installer.php(407): call_user_func_array()
+#4 /var/www/magento/setup/src/Magento/Setup/Console/Command/InstallCommand.php(237): Magento\Setup\Model\Installer->install()
+#5 /var/www/magento/vendor/symfony/console/Command/Command.php(326): Magento\Setup\Console\Command\InstallCommand->execute()
+#6 /var/www/magento/vendor/symfony/console/Application.php(1078): Symfony\Component\Console\Command\Command->run()
+#7 /var/www/magento/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#8 /var/www/magento/vendor/magento/framework/Console/Cli.php(118): Symfony\Component\Console\Application->doRun()
+#9 /var/www/magento/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun()
+#10 /var/www/magento/bin/magento(23): Symfony\Component\Console\Application->run()
+#11 {main} [] []
+[2024-09-06T13:11:12.129522+00:00] main.ERROR: Could not validate a connection to Elasticsearch. No alive nodes found in your cluster
+#0 /var/www/magento/setup/src/Magento/Setup/Model/SearchConfig.php(69): Magento\Setup\Model\SearchConfig->validateSearchEngine()
+#1 /var/www/magento/setup/src/Magento/Setup/Model/Installer.php(1206): Magento\Setup\Model\SearchConfig->saveConfiguration()
+#2 [internal function]: Magento\Setup\Model\Installer->installSearchConfiguration()
+#3 /var/www/magento/setup/src/Magento/Setup/Model/Installer.php(407): call_user_func_array()
+#4 /var/www/magento/setup/src/Magento/Setup/Console/Command/InstallCommand.php(237): Magento\Setup\Model\Installer->install()
+#5 /var/www/magento/vendor/symfony/console/Command/Command.php(326): Magento\Setup\Console\Command\InstallCommand->execute()
+#6 /var/www/magento/vendor/symfony/console/Application.php(1078): Symfony\Component\Console\Command\Command->run()
+#7 /var/www/magento/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#8 /var/www/magento/vendor/magento/framework/Console/Cli.php(118): Symfony\Component\Console\Application->doRun()
+#9 /var/www/magento/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun()
+#10 /var/www/magento/bin/magento(23): Symfony\Component\Console\Application->run()
+#11 {main} [] []
+[2024-09-06T13:14:09.897453+00:00] main.ERROR: Could not validate a connection to the OpenSearch. The search failed because of a search engine misconfiguration.
+#0 /var/www/magento/setup/src/Magento/Setup/Model/SearchConfig.php(69): Magento\Setup\Model\SearchConfig->validateSearchEngine()
+#1 /var/www/magento/setup/src/Magento/Setup/Model/Installer.php(1206): Magento\Setup\Model\SearchConfig->saveConfiguration()
+#2 [internal function]: Magento\Setup\Model\Installer->installSearchConfiguration()
+#3 /var/www/magento/setup/src/Magento/Setup/Model/Installer.php(407): call_user_func_array()
+#4 /var/www/magento/setup/src/Magento/Setup/Console/Command/InstallCommand.php(237): Magento\Setup\Model\Installer->install()
+#5 /var/www/magento/vendor/symfony/console/Command/Command.php(326): Magento\Setup\Console\Command\InstallCommand->execute()
+#6 /var/www/magento/vendor/symfony/console/Application.php(1078): Symfony\Component\Console\Command\Command->run()
+#7 /var/www/magento/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#8 /var/www/magento/vendor/magento/framework/Console/Cli.php(118): Symfony\Component\Console\Application->doRun()
+#9 /var/www/magento/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun()
+#10 /var/www/magento/bin/magento(23): Symfony\Component\Console\Application->run()
+#11 {main} [] []
+[2024-09-06T13:27:23.124863+00:00] main.ERROR: Could not validate a connection to the OpenSearch. No alive nodes found in your cluster
+#0 /var/www/magento/setup/src/Magento/Setup/Model/SearchConfig.php(69): Magento\Setup\Model\SearchConfig->validateSearchEngine()
+#1 /var/www/magento/setup/src/Magento/Setup/Model/Installer.php(1206): Magento\Setup\Model\SearchConfig->saveConfiguration()
+#2 [internal function]: Magento\Setup\Model\Installer->installSearchConfiguration()
+#3 /var/www/magento/setup/src/Magento/Setup/Model/Installer.php(407): call_user_func_array()
+#4 /var/www/magento/setup/src/Magento/Setup/Console/Command/InstallCommand.php(237): Magento\Setup\Model\Installer->install()
+#5 /var/www/magento/vendor/symfony/console/Command/Command.php(326): Magento\Setup\Console\Command\InstallCommand->execute()
+#6 /var/www/magento/vendor/symfony/console/Application.php(1078): Symfony\Component\Console\Command\Command->run()
+#7 /var/www/magento/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#8 /var/www/magento/vendor/magento/framework/Console/Cli.php(118): Symfony\Component\Console\Application->doRun()
+#9 /var/www/magento/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun()
+#10 /var/www/magento/bin/magento(23): Symfony\Component\Console\Application->run()
+#11 {main} [] []
+[2024-09-06T13:31:14.623720+00:00] main.ERROR: Could not validate a connection to the OpenSearch. No alive nodes found in your cluster
+#0 /var/www/magento/setup/src/Magento/Setup/Model/SearchConfig.php(69): Magento\Setup\Model\SearchConfig->validateSearchEngine()
+#1 /var/www/magento/setup/src/Magento/Setup/Model/Installer.php(1206): Magento\Setup\Model\SearchConfig->saveConfiguration()
+#2 [internal function]: Magento\Setup\Model\Installer->installSearchConfiguration()
+#3 /var/www/magento/setup/src/Magento/Setup/Model/Installer.php(407): call_user_func_array()
+#4 /var/www/magento/setup/src/Magento/Setup/Console/Command/InstallCommand.php(237): Magento\Setup\Model\Installer->install()
+#5 /var/www/magento/vendor/symfony/console/Command/Command.php(326): Magento\Setup\Console\Command\InstallCommand->execute()
+#6 /var/www/magento/vendor/symfony/console/Application.php(1078): Symfony\Component\Console\Command\Command->run()
+#7 /var/www/magento/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#8 /var/www/magento/vendor/magento/framework/Console/Cli.php(118): Symfony\Component\Console\Application->doRun()
+#9 /var/www/magento/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun()
+#10 /var/www/magento/bin/magento(23): Symfony\Component\Console\Application->run()
+#11 {main} [] []
+[2024-09-06T13:33:54.230393+00:00] main.ERROR: Could not validate a connection to the OpenSearch. No alive nodes found in your cluster
+#0 /var/www/magento/setup/src/Magento/Setup/Model/SearchConfig.php(69): Magento\Setup\Model\SearchConfig->validateSearchEngine()
+#1 /var/www/magento/setup/src/Magento/Setup/Model/Installer.php(1206): Magento\Setup\Model\SearchConfig->saveConfiguration()
+#2 [internal function]: Magento\Setup\Model\Installer->installSearchConfiguration()
+#3 /var/www/magento/setup/src/Magento/Setup/Model/Installer.php(407): call_user_func_array()
+#4 /var/www/magento/setup/src/Magento/Setup/Console/Command/InstallCommand.php(237): Magento\Setup\Model\Installer->install()
+#5 /var/www/magento/vendor/symfony/console/Command/Command.php(326): Magento\Setup\Console\Command\InstallCommand->execute()
+#6 /var/www/magento/vendor/symfony/console/Application.php(1078): Symfony\Component\Console\Command\Command->run()
+#7 /var/www/magento/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#8 /var/www/magento/vendor/magento/framework/Console/Cli.php(118): Symfony\Component\Console\Application->doRun()
+#9 /var/www/magento/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun()
+#10 /var/www/magento/bin/magento(23): Symfony\Component\Console\Application->run()
+#11 {main} [] []
+[2024-09-07T07:13:41.335865+00:00] main.ERROR: The OTP window must be a numeric value.
+#0 /var/www/magento/generated/code/Magento/TwoFactorAuth/Model/Config/Backend/OtpWindow/Interceptor.php(23): Magento\TwoFactorAuth\Model\Config\Backend\OtpWindow->processValue()
+#1 /var/www/magento/vendor/magento/framework/App/Config/MetadataConfigTypeProcessor.php(133): Magento\TwoFactorAuth\Model\Config\Backend\OtpWindow\Interceptor->processValue()
+#2 /var/www/magento/vendor/magento/framework/App/Config/MetadataConfigTypeProcessor.php(152): Magento\Framework\App\Config\MetadataConfigTypeProcessor->processScopeData()
+#3 /var/www/magento/vendor/magento/framework/App/Config/PostProcessorComposite.php(36): Magento\Framework\App\Config\MetadataConfigTypeProcessor->process()
+#4 /var/www/magento/generated/code/Magento/Framework/App/Config/PostProcessorComposite/Proxy.php(105): Magento\Framework\App\Config\PostProcessorComposite->process()
+#5 /var/www/magento/vendor/magento/module-config/App/Config/Type/System.php(437): Magento\Framework\App\Config\PostProcessorComposite\Proxy->process()
+#6 /var/www/magento/vendor/magento/module-config/App/Config/Type/System.php(543): Magento\Config\App\Config\Type\System->readData()
+#7 /var/www/magento/vendor/magento/framework/Cache/LockGuardedCacheLoader.php(136): Magento\Config\App\Config\Type\System->Magento\Config\App\Config\Type\{closure}()
+#8 /var/www/magento/vendor/magento/module-config/App/Config/Type/System.php(552): Magento\Framework\Cache\LockGuardedCacheLoader->lockedLoadData()
+#9 /var/www/magento/vendor/magento/module-config/Plugin/Framework/App/Cache/TypeList/WarmConfigCache.php(50): Magento\Config\App\Config\Type\System->cleanAndWarmDefaultScopeData()
+#10 /var/www/magento/vendor/magento/framework/Interception/Interceptor.php(135): Magento\Config\Plugin\Framework\App\Cache\TypeList\WarmConfigCache->aroundCleanType()
+#11 /var/www/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Cache\TypeList\Interceptor->Magento\Framework\Interception\{closure}()
+#12 /var/www/magento/generated/code/Magento/Framework/App/Cache/TypeList/Interceptor.php(59): Magento\Framework\App\Cache\TypeList\Interceptor->___callPlugins()
+#13 /var/www/magento/vendor/magento/framework/App/Cache/Manager.php(91): Magento\Framework\App\Cache\TypeList\Interceptor->cleanType()
+#14 /var/www/magento/vendor/magento/module-backend/Console/Command/CacheCleanCommand.php(39): Magento\Framework\App\Cache\Manager->clean()
+#15 /var/www/magento/vendor/magento/module-backend/Console/Command/AbstractCacheTypeManageCommand.php(64): Magento\Backend\Console\Command\CacheCleanCommand->performAction()
+#16 /var/www/magento/vendor/symfony/console/Command/Command.php(326): Magento\Backend\Console\Command\AbstractCacheTypeManageCommand->execute()
+#17 /var/www/magento/vendor/magento/framework/Interception/Interceptor.php(58): Symfony\Component\Console\Command\Command->run()
+#18 /var/www/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Backend\Console\Command\CacheCleanCommand\Interceptor->___callParent()
+#19 /var/www/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Backend\Console\Command\CacheCleanCommand\Interceptor->Magento\Framework\Interception\{closure}()
+#20 /var/www/magento/generated/code/Magento/Backend/Console/Command/CacheCleanCommand/Interceptor.php(77): Magento\Backend\Console\Command\CacheCleanCommand\Interceptor->___callPlugins()
+#21 /var/www/magento/vendor/symfony/console/Application.php(1078): Magento\Backend\Console\Command\CacheCleanCommand\Interceptor->run()
+#22 /var/www/magento/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#23 /var/www/magento/vendor/magento/framework/Console/Cli.php(118): Symfony\Component\Console\Application->doRun()
+#24 /var/www/magento/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun()
+#25 /var/www/magento/bin/magento(23): Symfony\Component\Console\Application->run()
+#26 {main} [] []
+[2024-09-07T07:16:00.069391+00:00] main.ERROR: The OTP window must be a numeric value.
+#0 /var/www/magento/generated/code/Magento/TwoFactorAuth/Model/Config/Backend/OtpWindow/Interceptor.php(23): Magento\TwoFactorAuth\Model\Config\Backend\OtpWindow->processValue()
+#1 /var/www/magento/vendor/magento/framework/App/Config/MetadataConfigTypeProcessor.php(133): Magento\TwoFactorAuth\Model\Config\Backend\OtpWindow\Interceptor->processValue()
+#2 /var/www/magento/vendor/magento/framework/App/Config/MetadataConfigTypeProcessor.php(152): Magento\Framework\App\Config\MetadataConfigTypeProcessor->processScopeData()
+#3 /var/www/magento/vendor/magento/framework/App/Config/PostProcessorComposite.php(36): Magento\Framework\App\Config\MetadataConfigTypeProcessor->process()
+#4 /var/www/magento/generated/code/Magento/Framework/App/Config/PostProcessorComposite/Proxy.php(105): Magento\Framework\App\Config\PostProcessorComposite->process()
+#5 /var/www/magento/vendor/magento/module-config/App/Config/Type/System.php(437): Magento\Framework\App\Config\PostProcessorComposite\Proxy->process()
+#6 /var/www/magento/vendor/magento/module-config/App/Config/Type/System.php(543): Magento\Config\App\Config\Type\System->readData()
+#7 /var/www/magento/vendor/magento/framework/Cache/LockGuardedCacheLoader.php(136): Magento\Config\App\Config\Type\System->Magento\Config\App\Config\Type\{closure}()
+#8 /var/www/magento/vendor/magento/module-config/App/Config/Type/System.php(552): Magento\Framework\Cache\LockGuardedCacheLoader->lockedLoadData()
+#9 /var/www/magento/vendor/magento/module-config/Plugin/Framework/App/Cache/TypeList/WarmConfigCache.php(50): Magento\Config\App\Config\Type\System->cleanAndWarmDefaultScopeData()
+#10 /var/www/magento/vendor/magento/framework/Interception/Interceptor.php(135): Magento\Config\Plugin\Framework\App\Cache\TypeList\WarmConfigCache->aroundCleanType()
+#11 /var/www/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Cache\TypeList\Interceptor->Magento\Framework\Interception\{closure}()
+#12 /var/www/magento/generated/code/Magento/Framework/App/Cache/TypeList/Interceptor.php(59): Magento\Framework\App\Cache\TypeList\Interceptor->___callPlugins()
+#13 /var/www/magento/vendor/magento/framework/App/Cache/Manager.php(91): Magento\Framework\App\Cache\TypeList\Interceptor->cleanType()
+#14 /var/www/magento/vendor/magento/module-backend/Console/Command/CacheCleanCommand.php(39): Magento\Framework\App\Cache\Manager->clean()
+#15 /var/www/magento/vendor/magento/module-backend/Console/Command/AbstractCacheTypeManageCommand.php(64): Magento\Backend\Console\Command\CacheCleanCommand->performAction()
+#16 /var/www/magento/vendor/symfony/console/Command/Command.php(326): Magento\Backend\Console\Command\AbstractCacheTypeManageCommand->execute()
+#17 /var/www/magento/vendor/magento/framework/Interception/Interceptor.php(58): Symfony\Component\Console\Command\Command->run()
+#18 /var/www/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Backend\Console\Command\CacheCleanCommand\Interceptor->___callParent()
+#19 /var/www/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Backend\Console\Command\CacheCleanCommand\Interceptor->Magento\Framework\Interception\{closure}()
+#20 /var/www/magento/generated/code/Magento/Backend/Console/Command/CacheCleanCommand/Interceptor.php(77): Magento\Backend\Console\Command\CacheCleanCommand\Interceptor->___callPlugins()
+#21 /var/www/magento/vendor/symfony/console/Application.php(1078): Magento\Backend\Console\Command\CacheCleanCommand\Interceptor->run()
+#22 /var/www/magento/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#23 /var/www/magento/vendor/magento/framework/Console/Cli.php(118): Symfony\Component\Console\Application->doRun()
+#24 /var/www/magento/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun()
+#25 /var/www/magento/bin/magento(23): Symfony\Component\Console\Application->run()
+#26 {main} [] []
+[2024-09-07T07:16:12.839198+00:00] main.ERROR: The OTP window must be a numeric value.
+#0 /var/www/magento/generated/code/Magento/TwoFactorAuth/Model/Config/Backend/OtpWindow/Interceptor.php(23): Magento\TwoFactorAuth\Model\Config\Backend\OtpWindow->processValue()
+#1 /var/www/magento/vendor/magento/framework/App/Config/MetadataConfigTypeProcessor.php(133): Magento\TwoFactorAuth\Model\Config\Backend\OtpWindow\Interceptor->processValue()
+#2 /var/www/magento/vendor/magento/framework/App/Config/MetadataConfigTypeProcessor.php(152): Magento\Framework\App\Config\MetadataConfigTypeProcessor->processScopeData()
+#3 /var/www/magento/vendor/magento/framework/App/Config/PostProcessorComposite.php(36): Magento\Framework\App\Config\MetadataConfigTypeProcessor->process()
+#4 /var/www/magento/generated/code/Magento/Framework/App/Config/PostProcessorComposite/Proxy.php(105): Magento\Framework\App\Config\PostProcessorComposite->process()
+#5 /var/www/magento/vendor/magento/module-config/App/Config/Type/System.php(437): Magento\Framework\App\Config\PostProcessorComposite\Proxy->process()
+#6 /var/www/magento/vendor/magento/module-config/App/Config/Type/System.php(543): Magento\Config\App\Config\Type\System->readData()
+#7 /var/www/magento/vendor/magento/framework/Cache/LockGuardedCacheLoader.php(136): Magento\Config\App\Config\Type\System->Magento\Config\App\Config\Type\{closure}()
+#8 /var/www/magento/vendor/magento/module-config/App/Config/Type/System.php(552): Magento\Framework\Cache\LockGuardedCacheLoader->lockedLoadData()
+#9 /var/www/magento/vendor/magento/module-config/Plugin/Framework/App/Cache/TypeList/WarmConfigCache.php(50): Magento\Config\App\Config\Type\System->cleanAndWarmDefaultScopeData()
+#10 /var/www/magento/vendor/magento/framework/Interception/Interceptor.php(135): Magento\Config\Plugin\Framework\App\Cache\TypeList\WarmConfigCache->aroundCleanType()
+#11 /var/www/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Cache\TypeList\Interceptor->Magento\Framework\Interception\{closure}()
+#12 /var/www/magento/generated/code/Magento/Framework/App/Cache/TypeList/Interceptor.php(59): Magento\Framework\App\Cache\TypeList\Interceptor->___callPlugins()
+#13 /var/www/magento/vendor/magento/framework/App/Cache/Manager.php(91): Magento\Framework\App\Cache\TypeList\Interceptor->cleanType()
+#14 /var/www/magento/vendor/magento/module-backend/Console/Command/CacheCleanCommand.php(39): Magento\Framework\App\Cache\Manager->clean()
+#15 /var/www/magento/vendor/magento/module-backend/Console/Command/AbstractCacheTypeManageCommand.php(64): Magento\Backend\Console\Command\CacheCleanCommand->performAction()
+#16 /var/www/magento/vendor/symfony/console/Command/Command.php(326): Magento\Backend\Console\Command\AbstractCacheTypeManageCommand->execute()
+#17 /var/www/magento/vendor/magento/framework/Interception/Interceptor.php(58): Symfony\Component\Console\Command\Command->run()
+#18 /var/www/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Backend\Console\Command\CacheCleanCommand\Interceptor->___callParent()
+#19 /var/www/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Backend\Console\Command\CacheCleanCommand\Interceptor->Magento\Framework\Interception\{closure}()
+#20 /var/www/magento/generated/code/Magento/Backend/Console/Command/CacheCleanCommand/Interceptor.php(77): Magento\Backend\Console\Command\CacheCleanCommand\Interceptor->___callPlugins()
+#21 /var/www/magento/vendor/symfony/console/Application.php(1078): Magento\Backend\Console\Command\CacheCleanCommand\Interceptor->run()
+#22 /var/www/magento/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#23 /var/www/magento/vendor/magento/framework/Console/Cli.php(118): Symfony\Component\Console\Application->doRun()
+#24 /var/www/magento/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun()
+#25 /var/www/magento/bin/magento(23): Symfony\Component\Console\Application->run()
+#26 {main} [] []
+[2024-09-07T07:17:37.932686+00:00] main.ERROR: The OTP window must be a numeric value.
+#0 /var/www/magento/generated/code/Magento/TwoFactorAuth/Model/Config/Backend/OtpWindow/Interceptor.php(23): Magento\TwoFactorAuth\Model\Config\Backend\OtpWindow->processValue()
+#1 /var/www/magento/vendor/magento/framework/App/Config/MetadataConfigTypeProcessor.php(133): Magento\TwoFactorAuth\Model\Config\Backend\OtpWindow\Interceptor->processValue()
+#2 /var/www/magento/vendor/magento/framework/App/Config/MetadataConfigTypeProcessor.php(152): Magento\Framework\App\Config\MetadataConfigTypeProcessor->processScopeData()
+#3 /var/www/magento/vendor/magento/framework/App/Config/PostProcessorComposite.php(36): Magento\Framework\App\Config\MetadataConfigTypeProcessor->process()
+#4 /var/www/magento/generated/code/Magento/Framework/App/Config/PostProcessorComposite/Proxy.php(105): Magento\Framework\App\Config\PostProcessorComposite->process()
+#5 /var/www/magento/vendor/magento/module-config/App/Config/Type/System.php(437): Magento\Framework\App\Config\PostProcessorComposite\Proxy->process()
+#6 /var/www/magento/vendor/magento/module-config/App/Config/Type/System.php(543): Magento\Config\App\Config\Type\System->readData()
+#7 /var/www/magento/vendor/magento/framework/Cache/LockGuardedCacheLoader.php(136): Magento\Config\App\Config\Type\System->Magento\Config\App\Config\Type\{closure}()
+#8 /var/www/magento/vendor/magento/module-config/App/Config/Type/System.php(552): Magento\Framework\Cache\LockGuardedCacheLoader->lockedLoadData()
+#9 /var/www/magento/vendor/magento/module-config/Plugin/Framework/App/Cache/TypeList/WarmConfigCache.php(50): Magento\Config\App\Config\Type\System->cleanAndWarmDefaultScopeData()
+#10 /var/www/magento/vendor/magento/framework/Interception/Interceptor.php(135): Magento\Config\Plugin\Framework\App\Cache\TypeList\WarmConfigCache->aroundCleanType()
+#11 /var/www/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Cache\TypeList\Interceptor->Magento\Framework\Interception\{closure}()
+#12 /var/www/magento/generated/code/Magento/Framework/App/Cache/TypeList/Interceptor.php(59): Magento\Framework\App\Cache\TypeList\Interceptor->___callPlugins()
+#13 /var/www/magento/vendor/magento/framework/App/Cache/Manager.php(91): Magento\Framework\App\Cache\TypeList\Interceptor->cleanType()
+#14 /var/www/magento/vendor/magento/module-backend/Console/Command/CacheCleanCommand.php(39): Magento\Framework\App\Cache\Manager->clean()
+#15 /var/www/magento/vendor/magento/module-backend/Console/Command/AbstractCacheTypeManageCommand.php(64): Magento\Backend\Console\Command\CacheCleanCommand->performAction()
+#16 /var/www/magento/vendor/symfony/console/Command/Command.php(326): Magento\Backend\Console\Command\AbstractCacheTypeManageCommand->execute()
+#17 /var/www/magento/vendor/magento/framework/Interception/Interceptor.php(58): Symfony\Component\Console\Command\Command->run()
+#18 /var/www/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Backend\Console\Command\CacheCleanCommand\Interceptor->___callParent()
+#19 /var/www/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Backend\Console\Command\CacheCleanCommand\Interceptor->Magento\Framework\Interception\{closure}()
+#20 /var/www/magento/generated/code/Magento/Backend/Console/Command/CacheCleanCommand/Interceptor.php(77): Magento\Backend\Console\Command\CacheCleanCommand\Interceptor->___callPlugins()
+#21 /var/www/magento/vendor/symfony/console/Application.php(1078): Magento\Backend\Console\Command\CacheCleanCommand\Interceptor->run()
+#22 /var/www/magento/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#23 /var/www/magento/vendor/magento/framework/Console/Cli.php(118): Symfony\Component\Console\Application->doRun()
+#24 /var/www/magento/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun()
+#25 /var/www/magento/bin/magento(23): Symfony\Component\Console\Application->run()
+#26 {main} [] []
+[2024-09-07T07:17:58.728470+00:00] main.ERROR: The OTP window must be a numeric value.
+#0 /var/www/magento/generated/code/Magento/TwoFactorAuth/Model/Config/Backend/OtpWindow/Interceptor.php(23): Magento\TwoFactorAuth\Model\Config\Backend\OtpWindow->processValue()
+#1 /var/www/magento/vendor/magento/framework/App/Config/MetadataConfigTypeProcessor.php(133): Magento\TwoFactorAuth\Model\Config\Backend\OtpWindow\Interceptor->processValue()
+#2 /var/www/magento/vendor/magento/framework/App/Config/MetadataConfigTypeProcessor.php(152): Magento\Framework\App\Config\MetadataConfigTypeProcessor->processScopeData()
+#3 /var/www/magento/vendor/magento/framework/App/Config/PostProcessorComposite.php(36): Magento\Framework\App\Config\MetadataConfigTypeProcessor->process()
+#4 /var/www/magento/generated/code/Magento/Framework/App/Config/PostProcessorComposite/Proxy.php(105): Magento\Framework\App\Config\PostProcessorComposite->process()
+#5 /var/www/magento/vendor/magento/module-config/App/Config/Type/System.php(437): Magento\Framework\App\Config\PostProcessorComposite\Proxy->process()
+#6 /var/www/magento/vendor/magento/module-config/App/Config/Type/System.php(543): Magento\Config\App\Config\Type\System->readData()
+#7 /var/www/magento/vendor/magento/framework/Cache/LockGuardedCacheLoader.php(136): Magento\Config\App\Config\Type\System->Magento\Config\App\Config\Type\{closure}()
+#8 /var/www/magento/vendor/magento/module-config/App/Config/Type/System.php(552): Magento\Framework\Cache\LockGuardedCacheLoader->lockedLoadData()
+#9 /var/www/magento/vendor/magento/module-config/Plugin/Framework/App/Cache/TypeList/WarmConfigCache.php(50): Magento\Config\App\Config\Type\System->cleanAndWarmDefaultScopeData()
+#10 /var/www/magento/vendor/magento/framework/Interception/Interceptor.php(135): Magento\Config\Plugin\Framework\App\Cache\TypeList\WarmConfigCache->aroundCleanType()
+#11 /var/www/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Cache\TypeList\Interceptor->Magento\Framework\Interception\{closure}()
+#12 /var/www/magento/generated/code/Magento/Framework/App/Cache/TypeList/Interceptor.php(59): Magento\Framework\App\Cache\TypeList\Interceptor->___callPlugins()
+#13 /var/www/magento/vendor/magento/framework/App/Cache/Manager.php(91): Magento\Framework\App\Cache\TypeList\Interceptor->cleanType()
+#14 /var/www/magento/vendor/magento/module-backend/Console/Command/CacheCleanCommand.php(39): Magento\Framework\App\Cache\Manager->clean()
+#15 /var/www/magento/vendor/magento/module-backend/Console/Command/AbstractCacheTypeManageCommand.php(64): Magento\Backend\Console\Command\CacheCleanCommand->performAction()
+#16 /var/www/magento/vendor/symfony/console/Command/Command.php(326): Magento\Backend\Console\Command\AbstractCacheTypeManageCommand->execute()
+#17 /var/www/magento/vendor/magento/framework/Interception/Interceptor.php(58): Symfony\Component\Console\Command\Command->run()
+#18 /var/www/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Backend\Console\Command\CacheCleanCommand\Interceptor->___callParent()
+#19 /var/www/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Backend\Console\Command\CacheCleanCommand\Interceptor->Magento\Framework\Interception\{closure}()
+#20 /var/www/magento/generated/code/Magento/Backend/Console/Command/CacheCleanCommand/Interceptor.php(77): Magento\Backend\Console\Command\CacheCleanCommand\Interceptor->___callPlugins()
+#21 /var/www/magento/vendor/symfony/console/Application.php(1078): Magento\Backend\Console\Command\CacheCleanCommand\Interceptor->run()
+#22 /var/www/magento/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#23 /var/www/magento/vendor/magento/framework/Console/Cli.php(118): Symfony\Component\Console\Application->doRun()
+#24 /var/www/magento/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun()
+#25 /var/www/magento/bin/magento(23): Symfony\Component\Console\Application->run()
+#26 {main} [] []
+[2024-09-07T07:18:36.233848+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/Framework/App/Http/.
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-09-07T07:18:36.495273+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/Framework/App/Http/.
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-09-07T07:18:44.322052+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/Framework/App/Http/.
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-09-07T07:18:44.646059+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/Framework/App/Http/.
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-09-07T07:18:44.869487+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/Framework/App/Http/.
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-09-07T07:18:47.572818+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/Framework/App/Http/.
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-09-07T07:18:48.012204+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/Framework/App/Http/.
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-09-07T07:20:58.595754+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/RemoteStorage/Driver/Adapter/.
+Class Magento\RemoteStorage\Driver\Adapter\MetadataProviderInterfaceFactory generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-09-07T07:21:00.699104+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/RemoteStorage/Driver/Adapter/.
+Class Magento\RemoteStorage\Driver\Adapter\MetadataProviderInterfaceFactory generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-09-07T07:32:19.239733+00:00] main.ERROR: The "/var/www/magento/var/cache/mage--8/mage---d19_L_FA2B93EEDBEBCFEE" file can't be deleted. Warning!unlink(/var/www/magento/var/cache/mage--8/mage---d19_L_FA2B93EEDBEBCFEE): Permission denied The "/var/www/magento/var/cache/mage--8/mage---d19_L_59E3DB341051F607" file can't be deleted. Warning!unlink(/var/www/magento/var/cache/mage--8/mage---d19_L_59E3DB341051F607): Permission denied The "/var/www/magento/var/cache/mage--8/mage---d19_APP_35C0BF370AE35F8C482DC31B8A81FC2F" file can't be deleted. Warning!unlink(/var/www/magento/var/cache/mage--8/mage---d19_APP_35C0BF370AE35F8C482DC31B8A81FC2F): Permission denied The "/var/www/magento/var/cache/mage--0/mage---d19_EAV_ENTITY_TYPES" file can't be deleted. Warning!unlink(/var/www/magento/var/cache/mage--0/mage---d19_EAV_ENTITY_TYPES): Permission denied The "/var/www/magento/var/cache/mage--2/mage---d19_DB_PDO_MYSQL_DDL_CMS_PAGE_3" file can't be deleted. Warning!unlink(/var/www/magento/var/cache/mage--2/mage---d19_DB_PDO_MYSQL_DDL_CMS_PAGE_3): Permission denied The "/var/www/magento/var/cache/mage--2/mage---d19_FRONTEND__EVENT_CONFIG_CACHE" file can't be deleted. Warning!unlink(/var/www/magento/var/cache/mage--2/mage---d19_FRONTEND__EVENT_CONFIG_CACHE): Permission denied The "/var/www/magento/var/cache/mage--2/mage---d19_DESIGN_CHANGE_2B84A9E090235306F3B099AEA3EE850E" file can't be deleted. Warning!unlink(/var/www/magento/var/cache/mage--2/mage---d19_DESIGN_CHANGE_2B84A9E090235306F3B099AEA3EE850E): Permission denied The "/var/www/magento/var/cache/mage--2/mage---d19_THEME_LAYOUTS_FILES_MERGED" file can't be deleted. Warning!unlink(/var/www/magento/var/cache/mage--2/mage---d19_THEME_LAYOUTS_FILES_MERGED): Permission denied The "/var/www/magento/var/cache/mage--2/mage---d19_L_01BD82B925238E91" file can't be deleted. Warning!unlink(/var/www/magento/var/cache/mage--2/mage---d19_L_01BD82B925238E91): Permission denied The "/var/www/magento/var/cache/mage--2/mage---d19_BLOCK_9F2BA751118E16D256C5084813048347B2DFA26A4BE5986DD0FC13B91FB4ABA8" file can't be deleted. Warning!unlink(/var/www/magento/var/cache/mage--2/mage---d19_BLOCK_9F2BA751118E16D256C5084813048347B2DFA26A4BE5986DD0FC13B91FB4ABA8): Permission denied The "/var/www/magento/var/cache/mage--2/mage---d19_ADMINHTML__RESOURCESCACHE" file can't be deleted. Warning!unlink(/var/www/magento/var/cache/mage--2/mage---d19_ADMINHTML__RESOURCESCACHE): Permission denied The "/var/www/magento/var/cache/mage--2/mage---d19_DB_PDO_MYSQL_DDL_CATALOG_CATEGORY_ENTITY_3" file can't be deleted. Warning!unlink(/var/www/magento/var/cache/mage--2/mage---d19_DB_PDO_MYSQL_DDL_CATALOG_CATEGORY_ENTITY_3): Permission denied The "/var/www/magento/var/cache/mage--2/mage---d19_DB_PDO_MYSQL_DDL_ADMIN_USER_SESSION_1" file can't be deleted. Warning!unlink(/var/www/magento/var/cache/mage--2/mage---d19_DB_PDO_MYSQL_DDL_ADMIN_USER_SESSION_1): Permission denied The "/var/www/magento/var/cache/mage--b/mage---d19_TRANSLATE_DE_DE_ADMINHTML_ADMIN_MAGENTO_BACKEND_MAGENTO_BACKEND" file can't be deleted. Warning!unlink(/var/www/magento/var/cache/mage--b/mage---d19_TRANSLATE_DE_DE_ADMINHTML_ADMIN_MAGENTO_BACKEND_MAGENTO_BACKEND): Permission denied The "/var/www/magento/var/cache/mage--b/mage---d19_LAYOUT_FRONTEND_STORE1_36F1B068EC7CCF4878F9284DD1137AFD1_PAGE_LAYOUT_MERGED" file can't be deleted. Warning!unlink(/var/www/magento/var/cache/mage--b/mage---d19_LAYOUT_FRONTEND_STORE1_36F1B068EC7CCF4878F9284DD1137AFD1_PAGE_LAYOUT_MERGED): Permission denied The "/var/www/magento/var/cache/mage--8/mage---d19_L_FA2B93EEDBEBCFEE" file can't be deleted. Warning!unlink(/var/www/magento/var/cache/mage--8/mage---d19_L_FA2B93EEDBEBCFEE): Permission denied The "/var/www/magento/var/cache/mage--8/mage---d19_L_59E3DB341051F607" file can't be deleted. Warning!unlink(/var/www/magento/var/cache/mage--8/mage---d19_L_59E3DB341051F607): Permission denied The "/var/www/magento/var/cache/mage--8/mage---d19_APP_35C0BF370AE35F8C482DC31B8A81FC2F" file can't be deleted. Warning!unlink(/var/www/magento/var/cache/mage--8/mage---d19_APP_35C0BF370AE35F8C482DC31B8A81FC2F): Permission denied The "/var/www/magento/var/cache/mage--0/mage---d19_EAV_ENTITY_TYPES" file can't be deleted. Warning!unlink(/var/www/magento/var/cache/mage--0/mage---d19_EAV_ENTITY_TYPES): Permission denied The "/var/www/magento/var/cache/mage--2/mage---d19_DB_PDO_MYSQL_DDL_CMS_PAGE_3" file can't be deleted. Warning!unlink(/var/www/magento/var/cache/mage--2/mage---d19_DB_PDO_MYSQL_DDL_CMS_PAGE_3): Permission denied The "/var/www/magento/var/cache/mage--2/mage---d19_FRONTEND__EVENT_CONFIG_CACHE" file can't be deleted. Warning!unlink(/var/www/magento/var/cache/mage--2/mage---d19_FRONTEND__EVENT_CONFIG_CACHE): Permission denied The "/var/www/magento/var/cache/mage--2/mage---d19_DESIGN_CHANGE_2B84A9E090235306F3B099AEA3EE850E" file can't be deleted. Warning!unlink(/var/www/magento/var/cache/mage--2/mage---d19_DESIGN_CHANGE_2B84A9E090235306F3B099AEA3EE850E): Permission denied The "/var/www/magento/var/cache/mage--2/mage---d19_THEME_LAYOUTS_FILES_MERGED" file can't be deleted. Warning!unlink(/var/www/magento/var/cache/mage--2/mage---d19_THEME_LAYOUTS_FILES_MERGED): Permission denied The "/var/www/magento/var/cache/mage--2/mage---d19_L_01BD82B925238E91" file can't be deleted. Warning!unlink(/var/www/magento/var/cache/mage--2/mage---d19_L_01BD82B925238E91): Permission denied The "/var/www/magento/var/cache/mage--2/mage---d19_BLOCK_9F2BA751118E16D256C5084813048347B2DFA26A4BE5986DD0FC13B91FB4ABA8" file can't be deleted. Warning!unlink(/var/www/magento/var/cache/mage--2/mage---d19_BLOCK_9F2BA751118E16D256C5084813048347B2DFA26A4BE5986DD0FC13B91FB4ABA8): Permission denied The "/var/www/magento/var/cache/mage--2/mage---d19_ADMINHTML__RESOURCESCACHE" file can't be deleted. Warning!unlink(/var/www/magento/var/cache/mage--2/mage---d19_ADMINHTML__RESOURCESCACHE): Permission denied The "/var/www/magento/var/cache/mage--2/mage---d19_DB_PDO_MYSQL_DDL_CATALOG_CATEGORY_ENTITY_3" file can't be deleted. Warning!unlink(/var/www/magento/var/cache/mage--2/mage---d19_DB_PDO_MYSQL_DDL_CATALOG_CATEGORY_ENTITY_3): Permission denied The "/var/www/magento/var/cache/mage--2/mage---d19_DB_PDO_MYSQL_DDL_ADMIN_USER_SESSION_1" file can't be deleted. Warning!unlink(/var/www/magento/var/cache/mage--2/mage---d19_DB_PDO_MYSQL_DDL_ADMIN_USER_SESSION_1): Permission denied The "/var/www/magento/var/cache/mage--b/mage---d19_TRANSLATE_DE_DE_ADMINHTML_ADMIN_MAGENTO_BACKEND_MAGENTO_BACKEND" file can't be deleted. Warning!unlink(/var/www/magento/var/cache/mage--b/mage---d19_TRANSLATE_DE_DE_ADMINHTML_ADMIN_MAGENTO_BACKEND_MAGENTO_BACKEND): Permission denied The "/var/www/magento/var/cache/mage--b/mage---d19_LAYOUT_FRONTEND_STORE1_36F1B068EC7CCF4878F9284DD1137AFD1_PAGE_LAYOUT_MERGED" file can't be deleted. Warning!unlink(/var/www/magento/var/cache/mage--b/mage---d19_LAYOUT_FRONTEND_STORE1_36F1B068EC7CCF4878F9284DD1137AFD1_PAGE_LAYOUT_MERGED): Permission denied
+#0 /var/www/magento/setup/src/Magento/Setup/Console/Command/DiCompileCommand.php(309): Magento\Framework\Filesystem\Directory\Write->delete()
+#1 /var/www/magento/setup/src/Magento/Setup/Console/Command/DiCompileCommand.php(181): Magento\Setup\Console\Command\DiCompileCommand->cleanupFilesystem()
+#2 /var/www/magento/vendor/symfony/console/Command/Command.php(326): Magento\Setup\Console\Command\DiCompileCommand->execute()
+#3 /var/www/magento/vendor/symfony/console/Application.php(1078): Symfony\Component\Console\Command\Command->run()
+#4 /var/www/magento/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#5 /var/www/magento/vendor/magento/framework/Console/Cli.php(118): Symfony\Component\Console\Application->doRun()
+#6 /var/www/magento/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun()
+#7 /var/www/magento/bin/magento(23): Symfony\Component\Console\Application->run()
+#8 {main} [] []
+[2024-09-07T07:32:51.974408+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/Framework/App/Http/.
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-09-07T07:32:53.122690+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/Framework/App/Http/.
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-09-07T07:32:56.189697+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/Framework/App/Http/.
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-09-07T07:32:57.787168+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/Framework/App/Http/.
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-09-07T07:33:05.810599+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/Framework/App/Http/.
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-09-07T07:33:07.106740+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/Framework/App/Http/.
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-09-08T07:21:48.574443+00:00] main.ERROR: The path is not allowed: media/.git/config [] []
+[2024-09-09T10:16:21.430375+00:00] main.ERROR: The path is not allowed: media/filemanager/dialog.php [] []
+[2024-09-16T10:57:24.514956+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/Email/Model/ResourceModel/Template/Collection/.
+Class Magento\Email\Model\ResourceModel\Template\Collection\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-09-16T10:57:44.369805+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/Email/Model/ResourceModel/Template/Collection/.
+Class Magento\Email\Model\ResourceModel\Template\Collection\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-09-16T10:58:15.585072+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/Email/Model/ResourceModel/Template/Collection/.
+Class Magento\Email\Model\ResourceModel\Template\Collection\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-09-16T12:46:18.137473+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/Email/Model/ResourceModel/Template/Collection/.
+Class Magento\Email\Model\ResourceModel\Template\Collection\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-09-16T12:46:50.266271+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/Email/Model/ResourceModel/Template/Collection/.
+Class Magento\Email\Model\ResourceModel\Template\Collection\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-09-16T12:47:02.646689+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/Email/Model/ResourceModel/Template/Collection/.
+Class Magento\Email\Model\ResourceModel\Template\Collection\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-09-16T12:52:14.206876+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/Email/Model/ResourceModel/Template/Collection/.
+Class Magento\Email\Model\ResourceModel\Template\Collection\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-09-16T13:29:39.799650+00:00] main.ERROR: The CMS page with the "0" ID doesn't exist. [] []
+[2024-09-16T14:10:08.339275+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/Email/Model/ResourceModel/Template/Collection/.
+Class Magento\Email\Model\ResourceModel\Template\Collection\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-09-16T14:14:46.144768+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/Deploy/Service/DeployStaticContent/.
+Class Magento\Deploy\Service\DeployStaticContent\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-09-16T14:29:56.577144+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/jquery/fileUploader/jquery.fileupload-ui.js' [] []
+[2024-09-16T14:29:56.578027+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/jquery/fileUploader/jquery.fileupload-ui.js' [] []
+[2024-09-16T17:24:11.427868+00:00] main.ERROR: Please upgrade your database: Run "bin/magento setup:upgrade" from the Magento root directory.
+The following modules are outdated:
+ET_Theme data: current version - none, required version - 1.0.2 [] []
+[2024-09-16T17:24:49.253865+00:00] main.ERROR: Please upgrade your database: Run "bin/magento setup:upgrade" from the Magento root directory.
+The following modules are outdated:
+ET_Theme data: current version - none, required version - 1.0.2 [] []
+[2024-09-16T23:49:02.270256+00:00] main.ERROR: Please upgrade your database: Run "bin/magento setup:upgrade" from the Magento root directory.
+The following modules are outdated:
+ET_Theme data: current version - none, required version - 1.0.2 [] []
+[2024-09-16T23:53:01.362113+00:00] main.ERROR: Please upgrade your database: Run "bin/magento setup:upgrade" from the Magento root directory.
+The following modules are outdated:
+ET_Theme data: current version - none, required version - 1.0.2 [] []
+[2024-09-17T00:02:10.140250+00:00] main.ERROR: Please upgrade your database: Run "bin/magento setup:upgrade" from the Magento root directory.
+The following modules are outdated:
+ET_Theme data: current version - none, required version - 1.0.2 [] []
+[2024-09-17T06:50:51.846655+00:00] main.ERROR: Please upgrade your database: Run "bin/magento setup:upgrade" from the Magento root directory.
+The following modules are outdated:
+ET_Theme data: current version - none, required version - 1.0.2 [] []
+[2024-09-17T06:50:55.626915+00:00] main.ERROR: Please upgrade your database: Run "bin/magento setup:upgrade" from the Magento root directory.
+The following modules are outdated:
+ET_Theme data: current version - none, required version - 1.0.2 [] []
+[2024-09-17T06:51:01.166861+00:00] main.ERROR: Please upgrade your database: Run "bin/magento setup:upgrade" from the Magento root directory.
+The following modules are outdated:
+ET_Theme data: current version - none, required version - 1.0.2 [] []
+[2024-09-18T09:10:58.593999+00:00] main.ERROR: No alive nodes found in your cluster [] []
+[2024-09-18T09:11:10.551327+00:00] main.ERROR: No alive nodes found in your cluster [] []
+[2024-09-18T09:11:11.195013+00:00] main.ERROR: No alive nodes found in your cluster [] []
+[2024-09-18T09:47:59.648465+00:00] main.CRITICAL: Could not ping search engine: No alive nodes found in your cluster [] []
+[2024-09-18T09:58:48.003057+00:00] main.CRITICAL: Could not ping search engine: No alive nodes found in your cluster [] []
+[2024-09-23T10:50:23.694098+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/de_DE/underscore-umd.js.map' [] []
+[2024-09-23T10:50:23.702465+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/de_DE/underscore-umd.js.map' [] []
+[2024-09-23T10:59:10.582811+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/de_DE/underscore-umd.js.map' [] []
+[2024-09-23T10:59:10.584507+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/de_DE/underscore-umd.js.map' [] []
+[2024-09-23T14:19:49.165106+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/de_DE/underscore-umd.js.map' [] []
+[2024-09-23T14:19:49.165877+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/de_DE/underscore-umd.js.map' [] []
+[2024-11-04T20:55:46.408795+00:00] main.ERROR: SQLSTATE[HY000] [1045] Access denied for user 'bilal'@'localhost' (using password: YES) [] []
+[2024-11-04T20:55:47.088092+00:00] main.ERROR: SQLSTATE[HY000] [1045] Access denied for user 'bilal'@'localhost' (using password: YES) [] []
+[2024-11-05T16:30:13.238396+00:00] main.ERROR: The path is not allowed: media/wp-includes/wlwmanifest.xml [] []
+[2024-11-15T07:01:35.518709+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/Framework/App/Http/.
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-11-15T07:01:35.776604+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/Framework/App/Http/.
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-11-15T07:01:46.453589+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/Framework/App/Http/.
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-11-15T07:01:46.653861+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/Framework/App/Http/.
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-11-15T10:42:12.081310+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/Framework/App/Http/.
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-11-15T10:42:13.422626+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/Framework/App/Http/.
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-11-15T10:42:14.827531+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/Framework/App/Http/.
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-11-15T10:53:08.436409+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/Framework/App/Http/.
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-11-15T20:08:53.726610+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/Framework/App/Http/.
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-11-15T20:08:57.525242+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/Framework/App/Http/.
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-11-16T03:01:22.640531+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/Framework/App/Http/.
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-11-16T03:05:19.857648+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/Framework/App/Http/.
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-11-16T03:09:22.112319+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/Framework/App/Http/.
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-11-16T15:09:38.496829+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/Framework/App/Http/.
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-11-16T15:13:34.932830+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/Framework/App/Http/.
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-11-16T15:17:36.130852+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/Framework/App/Http/.
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-11-16T16:30:21.832139+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/Framework/App/Http/.
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-11-16T16:50:55.651475+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/Framework/App/Http/.
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-11-16T19:13:45.698470+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/Framework/App/Http/.
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-11-16T19:13:47.673795+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/Framework/App/Http/.
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-11-16T19:13:49.684285+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/Framework/App/Http/.
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-11-16T19:16:09.469393+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/Framework/App/Http/.
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-11-16T19:16:09.942855+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/Framework/App/Http/.
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-11-17T07:40:26.260709+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/Framework/App/Http/.
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-11-17T11:37:23.434792+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/Framework/App/Http/.
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-11-17T13:09:02.007234+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/Framework/App/Http/.
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-11-17T13:09:04.099963+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/Framework/App/Http/.
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-11-17T13:09:04.450470+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/Framework/App/Http/.
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-11-17T13:09:06.280055+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/Framework/App/Http/.
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-11-17T13:09:06.963338+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/Framework/App/Http/.
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-11-17T13:09:07.357920+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/Framework/App/Http/.
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-11-17T13:13:09.929217+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/Framework/App/Http/.
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-11-17T15:23:23.292165+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/Framework/App/Http/.
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-11-17T15:43:43.619059+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/Framework/App/Http/.
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-11-17T15:47:40.480497+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/Framework/App/Http/.
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-11-17T15:51:40.940740+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/Framework/App/Http/.
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-11-17T19:35:30.532630+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/Framework/App/Http/.
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-11-17T19:35:32.301147+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/Framework/App/Http/.
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-11-18T03:03:06.600056+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/Framework/App/Http/.
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-11-18T04:48:44.320519+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/Framework/App/Http/.
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-11-18T04:48:44.717400+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/Framework/App/Http/.
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-11-18T06:44:30.200715+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/Framework/App/Http/.
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-11-18T06:44:31.396816+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/Framework/App/Http/.
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-11-18T12:20:16.313434+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/Framework/App/Http/.
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-11-18T14:29:59.362995+00:00] main.CRITICAL: Can't create directory /var/www/magento/generated/code/Magento/Framework/App/Http/.
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2024-11-18T20:15:14.424257+00:00] main.ERROR: Requested path '.gitlab-ci.yml' is wrong. [] []
+[2024-11-18T20:15:14.424982+00:00] main.CRITICAL: Requested path '.gitlab-ci.yml' is wrong. [] []

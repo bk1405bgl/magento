@@ -1,0 +1,6 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1732505566;s:6:"expire";i:1732509166;s:4:"tags";s:69:"d19_BLOCK_HTML,d19_CAT_C,d19_CAT_C_3,d19_CAT_C_4,d19_CAT_C_5,d19_MAGE";}
+
+<nav class="navigation" data-action="navigation">
+    <ul data-mage-init='{"menu":{"responsive":true, "expanded":true, "position":{"my":"left top","at":"left bottom"}}}'>
+        <li  class="level0 nav-1 category-item first level-top"><a href="https://magento.bk1405bgl.de/men.html"  class="level-top" ><span>Men</span></a></li><li  class="level0 nav-2 category-item level-top"><a href="https://magento.bk1405bgl.de/women.html"  class="level-top" ><span>Women</span></a></li><li  class="level0 nav-3 category-item last level-top"><a href="https://magento.bk1405bgl.de/other-36-genders.html"  class="level-top" ><span>Other 36 genders</span></a></li>            </ul>
+</nav>
